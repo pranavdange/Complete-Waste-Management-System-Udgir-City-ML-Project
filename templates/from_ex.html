@@ -1,0 +1,38 @@
+<html>
+    <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+    background-image: url('static/a3.png');
+    }
+    </style>
+
+        <center>
+
+
+        <h1> WASTE ESTIMATION </h1><br>
+
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Ward :  <input type="text", name='w', placeholder="Enter Ward"> <br><br>
+            Vehicle :  <input type="text", name='a', placeholder="Enter Vehicle No."> <br><br>
+            Route   :    <input type="text", name='b', placeholder="Enter Route No."> <br><br>
+            Day     :      <input type="text", name='c', placeholder="Enter Day"> <br><br>
+            Month   :    <input type="text", name='d', placeholder="Enter Month"> <br><br>
+            Year    :     <input type="text", name='e', placeholder="Enter Year"> <br><br>
+            Hour    :     <input type="text", name='f', placeholder="Enter Hour"> <br><br>
+            Minute  :   <input type="text", name='g', placeholder="Enter Minute"> <br><br><br></b>
+            <input type="submit" value="ESTIMATE" style="
+            height: 50px;
+            width: 200px;
+            left: 250;
+            top: 250;
+            background-color: #48D1CC;
+            font-size= 50px;">
+
+        </form>
+
+
+
+    </center>
+
+    </body>

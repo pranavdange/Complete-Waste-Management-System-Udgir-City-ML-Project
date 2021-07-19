@@ -1,0 +1,61 @@
+<html>
+
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+    background-image: url('static/a.jpg');
+    }
+    </style>
+
+    <center>
+
+        <h1>  PREDICTION :  </h1>
+
+    {%if data == 0%}
+    <h1>Estimated Waste will range from 0-15 Kgs.</h1>
+
+    {%elif data == 1%}
+    <h1>Estimated Waste will range from 136+ Kgs.</h1>
+
+    {%elif data == 2%}
+    <h1>Estimated Waste will range from 16-30 Kgs.</h1>
+
+    {%elif data == 3%}
+    <h1>Estimated Waste will range from 31-45 Kgs.</h1>
+
+    {%elif data == 4%}
+    <h1>Estimated Waste will range from 46-60 Kgs.</h1>
+
+    {%elif data == 5%}
+    <h1>Estimated Waste will range from 61-75 Kgs.</h1>
+
+    {%elif data == 6%}
+    <h1>Estimated Waste will range from 76-90 Kgs.</h1>
+
+    {%elif data == 7%}
+    <h1>Estimated Waste will range from 91-105 Kgs.</h1>
+
+    {%elif data == 8%}
+    <h1>Estimated Waste will range from 106-120 Kgs.</h1>
+
+    {%else%}
+    <h1>Estimated Waste will range from 121-135 Kgs.</h1>
+
+
+
+
+
+
+    {%endif%}
+
+        <br><br>
+    <a href='/'>Go Back To Home</a>
+
+    </center>
+
+</body>
+
+</html>
+
+
