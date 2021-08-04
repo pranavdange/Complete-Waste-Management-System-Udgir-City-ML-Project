@@ -79,6 +79,8 @@ Future Scope
 2) Asset Management for trash bins for effective management 
 3) Eventually setting up the system to – Asset Management, Waste Monitoring and Route Planning solution which can then finally be delivered to the Government as a complete end to end solution.
 
+Note - This Project is done with authorization from Udgir Muncipal Corportaion and is for academic purpose only hence dataset cannot be shared nor distributed publicly. Above is the methodology and solution we proposed. Strictly no permission for copyright or any infringement.
+
 
 
 
